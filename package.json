@@ -1,0 +1,25 @@
+{
+  "name": "padre-ginos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.{js,ts,jsx,tsx,json,css}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chronoNeel/react-padre_ginos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chronoNeel/react-padre_ginos/issues"
+  },
+  "homepage": "https://github.com/chronoNeel/react-padre_ginos#readme",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
