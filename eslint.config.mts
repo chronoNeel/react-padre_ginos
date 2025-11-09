@@ -8,7 +8,7 @@ export default defineConfig([
   {
     files: ['**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     extends: ['js/recommended'],
-    languageOptions: { globals: globals.browser },
+    languageOptions: { globals: { ...globals.browser, ...globals.node } },
     rules: {
       'no-undef': 'off',
       'react/prop-types': 'off',
