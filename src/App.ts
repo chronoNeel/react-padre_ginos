@@ -1,4 +1,12 @@
-const Pizza = (props) => {
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+
+interface propsType {
+  pizza: string;
+  ingredient: string;
+}
+
+const Pizza = (props: propsType) => {
   return React.createElement('div', {}, [
     React.createElement(
       'div',
@@ -23,7 +31,7 @@ const Pizza = (props) => {
 const App = () => {
   return React.createElement('div', {}, [
     React.createElement(Pizza, {
-      pizza: 'The pepperoni Piza',
+      pizza: 'The pepperoni Pizza',
       ingredient: 'Mozarella Chesse, Pepperoni',
     }),
     React.createElement(Pizza, {
@@ -39,5 +47,5 @@ const App = () => {
 };
 
 const container = document.getElementById('root');
-const root = ReactDOM.createRoot(container);
+const root = createRoot(container!);
 root.render(React.createElement(App));

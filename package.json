@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write \"src/**/*.{js,ts,jsx,tsx,json,css}\"",
     "lint": "eslint"
@@ -15,21 +18,28 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/chronoNeel/react-padre_ginos/issues"
   },
   "homepage": "https://github.com/chronoNeel/react-padre_ginos#readme",
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
     "eslint": "^9.39.1",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.5.0",
     "prettier": "^3.6.2",
-    "typescript-eslint": "^8.46.3"
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.3",
+    "vite": "^7.2.2"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^5.1.0",
     "eslint-config-prettier": "^10.1.8",
-    "prop-types": "^15.8.1"
+    "prop-types": "^15.8.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   }
 }
