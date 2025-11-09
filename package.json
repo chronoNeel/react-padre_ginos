@@ -20,6 +20,14 @@
   },
   "homepage": "https://github.com/chronoNeel/react-padre_ginos#readme",
   "devDependencies": {
-    "prettier": "^3.6.2"
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.5.0",
+    "prettier": "^3.6.2",
+    "typescript-eslint": "^8.46.3"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1"
   }
 }
