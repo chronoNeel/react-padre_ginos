@@ -1,32 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-
-interface propsType {
-  pizza: string;
-  ingredient: string;
-}
-
-const Pizza = (props: propsType) => {
-  return React.createElement('div', {}, [
-    React.createElement(
-      'div',
-      {
-        style: {
-          display: 'flex',
-          gap: '100px',
-          alignItems: 'center',
-        },
-      },
-
-      [
-        React.createElement('p', {}, 'Pizza:'),
-
-        React.createElement('h1', {}, props.pizza),
-      ]
-    ),
-    React.createElement('p', {}, props.ingredient),
-  ]);
-};
+import Pizza from './Pizza.js';
 
 const App = () => {
   return React.createElement('div', {}, [
