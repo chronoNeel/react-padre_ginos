@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write \"src/**/*.{js,ts,jsx,tsx,json,css}\""
+    "format": "prettier --write \"src/**/*.{js,ts,jsx,tsx,json,css}\"",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "typescript-eslint": "^8.46.3"
   },
   "dependencies": {
+    "eslint-config-prettier": "^10.1.8",
     "prop-types": "^15.8.1"
   }
 }
