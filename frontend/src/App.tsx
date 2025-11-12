@@ -7,14 +7,17 @@ export default function App() {
       <Pizza
         pizza="The pepperoni Pizza"
         ingredient="Mozarella Chesse, Pepperoni"
+        image={'/public/pizzas/pepperoni.webp'}
       />
       <Pizza
         pizza="Margherita Pizza"
         ingredient="Tomato sauce, mozzarella cheese, fresh basil, and olive oil"
+        image={'/public/pizzas/pepperoni.webp'}
       />
       <Pizza
         pizza="White Pizza"
         ingredient="Garlic oil, mushrooms, and fresh herbs, without tomato sauce."
+        image={'/public/pizzas/cali_ckn.webp'}
       />
     </div>
   );
