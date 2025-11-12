@@ -1,17 +1,15 @@
 interface propsType {
-  pizza: string;
-  ingredient: string;
+  name: string;
+  description: string;
   image: string;
 }
 
 const Pizza = (props: propsType) => {
   return (
-    <div>
-      <div className="flex">
-        <h3>Pizza: {props.pizza}</h3>
-        <p>Ingredient: {props.ingredient}</p>
-        <img src={props.image} alt={props.pizza} />
-      </div>
+    <div className="pizza">
+      <h1>{props.name}</h1>
+      <p>{props.description}</p>
+      <img src={props.image} alt={props.name} />
     </div>
   );
 };
